@@ -33,24 +33,6 @@ export QT_QPA_PLATFORM=xcb
 export XDG_SESSION_TYPE=x11
 ```
 
-You can run those in the same shell session before starting the program, or add them to your `~/.bashrc` or shell profile to make them persistent.
-
-Pushing this folder to GitHub
-----------------------------
-To publish this directory as the remote repository `erroshakan1/CG2TS_v4`, initialize a local git repo, commit the files and push to the GitHub remote. Example (SSH):
-
-```bash
-cd /path/to/CG2TS_v4
-git init
-git add .
-git commit -m "Initial import of CG2TS_v4"
-git branch -M main
-git remote add origin git@github.com:erroshakan1/CG2TS_v4.git
-git push -u origin main
-```
-
-If you prefer HTTPS, use the HTTPS remote URL (`https://github.com/erroshakan1/CG2TS_v4.git`) when adding the remote.
-
 Contact
 -------
 Author: h.camoglu@outlook.com
