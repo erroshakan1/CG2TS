@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# CG2TS
-=======
 # CG2TS v4 — Membrane Defect Analysis Tool
 
 Coarse-Grained to Triangulated Surface (CG2TS) extracts and analyzes membrane packing defects from molecular dynamics trajectories.
